@@ -7,6 +7,7 @@ where token = '$token'";
 $result = mysqli_query($connect,$sql);
 if(mysqli_num_rows($result) !== 1) {
     header('location:index.php');
+    //abc
 }
 ?>
 
